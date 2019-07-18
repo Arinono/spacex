@@ -65,6 +65,10 @@ router.get('/roadster', (req, res) => {
   )
 })
 
+router.get('/health', (req, res) => {
+  res.statusCode(200).send()
+})
+
 app.use(router)
 
 console.log(`App listening on port ${port}`)

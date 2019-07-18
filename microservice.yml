@@ -9,6 +9,10 @@ info:
 lifecycle:
   startup:
     command: ['node', 'app.js']
+health:
+  http:
+    port: 5000
+    path: /health
 actions:
   launches:
     help: Gets launches information
