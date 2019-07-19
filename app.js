@@ -66,7 +66,7 @@ router.get('/roadster', (req, res) => {
 })
 
 router.get('/health', (req, res) => {
-  res.statusCode(200).send()
+  res.writeHead(200).end(`I'm heathy`)
 })
 
 app.use(router)
