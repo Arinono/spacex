@@ -27,7 +27,7 @@ actions:
         help: past, upcomming, latest or next for now. Will support fligth number later
         in: query
     output:
-      type: string
+      type: map
   roadster:
     help: Gets Elon's roadster information
     http:
@@ -35,4 +35,4 @@ actions:
       method: get
       port: 5000
     output:
-      type: string
+      type: map
