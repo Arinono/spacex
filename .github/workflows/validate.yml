@@ -13,4 +13,5 @@ jobs:
         node-version: [12.x]
     
     steps:
+      - uses: actions/checkout@v1
       - uses: arinono/validate@v3
