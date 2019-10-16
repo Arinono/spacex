@@ -13,4 +13,4 @@ jobs:
         node-version: [12.x]
     
     steps:
-      - uses: arinono/validate@v2
+      - uses: arinono/validate@v3
